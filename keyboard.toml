@@ -102,7 +102,7 @@ encoders = [["PgDn", "PgUp"], ["AudioVolUp", "AudioVolDown"]]
 [behavior.fork]
 forks = [
   { trigger = "Backspace", positive_output = "Delete", negative_output = "Backspace", match_any = "LShift|RShift" },
-  { trigger = "Lang2", positive_output = "Lang1", negative_output = "Lang2", match_any = "LShift|RShift" },
+  { trigger = "Language2", positive_output = "Language1", negative_output = "Language2", match_any = "LShift|RShift" },
 ]
 
 [behavior.one_shot]
