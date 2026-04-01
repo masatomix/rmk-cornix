@@ -96,13 +96,6 @@ LCTRL   LGUI  LALT  NO    SPACE  NO               NO    ENTER  NO     RALT  MENU
 """
 encoders = [["PgDn", "PgUp"], ["AudioVolUp", "AudioVolDown"]]
 
-# Tap/Hold settings (QMK equivalent: TAPPING_TERM=250, QUICK_TAP_TERM=120, PERMISSIVE_HOLD)
-[behavior.tap_hold]
-enable_hrm = true
-permissive_hold = true
-hold_timeout = "250ms"
-prior_idle_time = "120ms"
-
 # Fork: Mod-Morph equivalent
 # Shift+Backspace → Delete (#723)
 # Shift+Lang2 → Lang1 (#729)
