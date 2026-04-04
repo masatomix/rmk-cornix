@@ -108,9 +108,12 @@ forks = [
 [behavior.one_shot]
 timeout = "3s"
 
+# Combo: J+K → Esc (#738 5列移行準備)
 [behavior.combo]
 timeout = "50ms"
-combos = []
+combos = [
+  { actions = ["J", "K"], output = "Escape" },
+]
 
 [behavior.morse]
 enable_flow_tap = true
