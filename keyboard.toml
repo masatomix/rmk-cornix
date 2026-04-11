@@ -95,7 +95,7 @@ No          MT(A,LGui)     MT(S,LAlt)     MT(D,LCtrl)    MT(F,LShift)    LT(3,G)
 No          Z              X              C              V               B       Mute     MouseBtn3    No          LT(3,Slash)        Dot            Comma          M              No
 No          LShift         Language1       MO(4)          LT(1,Space)     LT(2,Language2)          No          LT(4,Grave)        No             No             LT(1,Enter)    Backspace
 """
-encoders = [["PgDn", "PgUp"], ["AudioAudioVolUp", "AudioVolDown"]]
+encoders = [["PgDn", "PgUp"], ["AudioVolUp", "AudioVolDown"]]
 
 # L1: Navigation
 [[layer]]
@@ -106,7 +106,7 @@ _           MT(AudioVolDown,LGui) MT(AudioVolUp,LAlt) MT(Delete,LCtrl) MT(Right,
 _           MouseBtn4           MouseBtn5           PgDn           Down            Left    Mute     MouseBtn3    _           _                  PgDn           _              _              Down
 _           _              _              _              _               _                        _           _                  _              _              _              Delete
 """
-encoders = [["PgDn", "PgUp"], ["AudioAudioVolUp", "AudioVolDown"]]
+encoders = [["PgDn", "PgUp"], ["AudioVolUp", "AudioVolDown"]]
 
 # L2: F-keys
 [[layer]]
@@ -117,7 +117,7 @@ _           F1             F2             F3             F4              F5     
 _           _              _              _              _               No      Mute     MouseBtn3    _           _                  _              _              _              _
 _           _              _              _              _               _                        _           _                  _              _              _              _
 """
-encoders = [["PgDn", "PgUp"], ["AudioAudioVolUp", "AudioVolDown"]]
+encoders = [["PgDn", "PgUp"], ["AudioVolUp", "AudioVolDown"]]
 
 # L3: Mouse
 [[layer]]
@@ -128,7 +128,7 @@ _           _              _              _              _               _      
 _           MouseBtn4           MouseBtn5           _              _               _       Mute     MouseBtn3    _           _                  MouseBtn2           MouseBtn3           MouseBtn1           _
 _           _              _              _              MouseBtn1            _                        _           _                  _              _              _              _
 """
-encoders = [["PgDn", "PgUp"], ["AudioAudioVolUp", "AudioVolDown"]]
+encoders = [["PgDn", "PgUp"], ["AudioVolUp", "AudioVolDown"]]
 
 # L4: Symbols/Numbers
 [[layer]]
@@ -139,7 +139,7 @@ _           MT(1,LGui)     MT(2,LAlt)     MT(3,LCtrl)    MT(4,LShift)    5      
 _           Backslash         TD(5)          TD(0)          TD(1)           TD(2)   Mute     MouseBtn3    _           _                  _              _              Minus          Equal
 _           _              _              _              _               _                        _           _                  _              _              _              _
 """
-encoders = [["PgDn", "PgUp"], ["AudioAudioVolUp", "AudioVolDown"]]
+encoders = [["PgDn", "PgUp"], ["AudioVolUp", "AudioVolDown"]]
 
 # Fork: Mod-Morph equivalent
 # Shift+Backspace → Delete (#723)
