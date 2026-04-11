@@ -92,21 +92,21 @@ name = "base"
 keys = """
 No          Q              W              E              R               T                        No          P                  O              I              U              No
 No          MT(A,LGui)     MT(S,LAlt)     MT(D,LCtrl)    MT(F,LShift)    LT(3,G)                  No          MT(Semicolon,RGui) MT(L,RAlt)     MT(K,RCtrl)    MT(J,RShift)   No
-No          Z              X              C              V               B       Mute     Btn3    No          LT(3,Slash)        Dot            Comma          M              No
-No          LShift         Language1       MO(4)          LT(1,Space)     LT(2,Language2)          No          LT(4,Grave)        No             No             LT(1,Enter)    Bspace
+No          Z              X              C              V               B       Mute     MouseBtn3    No          LT(3,Slash)        Dot            Comma          M              No
+No          LShift         Language1       MO(4)          LT(1,Space)     LT(2,Language2)          No          LT(4,Grave)        No             No             LT(1,Enter)    Backspace
 """
-encoders = [["PgDn", "PgUp"], ["AudioVolUp", "AudioVolDown"]]
+encoders = [["PgDn", "PgUp"], ["AudioAudioVolUp", "AudioVolDown"]]
 
 # L1: Navigation
 [[layer]]
 name = "nav"
 keys = """
 _           WM(Up,LCtrl)   WM(Down,LCtrl) PgUp           Up              F11                      _           Up                 PgUp           _              _              _
-_           MT(VolDn,LGui) MT(VolUp,LAlt) MT(Delete,LCtrl) MT(Right,LShift) WM(Escape,LAlt)        _           _                  MT(Right,RAlt) MT(Up,RCtrl)   MT(Down,RShift) _
-_           Btn4           Btn5           PgDn           Down            Left    Mute     Btn3    _           _                  PgDn           _              _              Down
+_           MT(AudioVolDown,LGui) MT(AudioVolUp,LAlt) MT(Delete,LCtrl) MT(Right,LShift) WM(Escape,LAlt)        _           _                  MT(Right,RAlt) MT(Up,RCtrl)   MT(Down,RShift) _
+_           MouseBtn4           MouseBtn5           PgDn           Down            Left    Mute     MouseBtn3    _           _                  PgDn           _              _              Down
 _           _              _              _              _               _                        _           _                  _              _              _              Delete
 """
-encoders = [["PgDn", "PgUp"], ["AudioVolUp", "AudioVolDown"]]
+encoders = [["PgDn", "PgUp"], ["AudioAudioVolUp", "AudioVolDown"]]
 
 # L2: F-keys
 [[layer]]
@@ -114,21 +114,21 @@ name = "fkeys"
 keys = """
 _           F11            F12            _              _               _                        _           _                  _              TD(4)          TD(3)          _
 _           F1             F2             F3             F4              F5                       _           F10                F9             F8             F7             _
-_           _              _              _              _               No      Mute     Btn3    _           _                  _              _              _              _
+_           _              _              _              _               No      Mute     MouseBtn3    _           _                  _              _              _              _
 _           _              _              _              _               _                        _           _                  _              _              _              _
 """
-encoders = [["PgDn", "PgUp"], ["AudioVolUp", "AudioVolDown"]]
+encoders = [["PgDn", "PgUp"], ["AudioAudioVolUp", "AudioVolDown"]]
 
 # L3: Mouse
 [[layer]]
 name = "mouse"
 keys = """
 _           _              _              _              _               _                        _           _                  _              _              _              _
-_           _              _              _              _               _                        _           _                  MsRight        MsUp           MsDown         MsLeft
-_           Btn4           Btn5           _              _               _       Mute     Btn3    _           _                  Btn2           Btn3           Btn1           _
-_           _              _              _              Btn1            _                        _           _                  _              _              _              _
+_           _              _              _              _               _                        _           _                  MouseRight        MouseUp           MouseDown         MouseLeft
+_           MouseBtn4           MouseBtn5           _              _               _       Mute     MouseBtn3    _           _                  MouseBtn2           MouseBtn3           MouseBtn1           _
+_           _              _              _              MouseBtn1            _                        _           _                  _              _              _              _
 """
-encoders = [["PgDn", "PgUp"], ["AudioVolUp", "AudioVolDown"]]
+encoders = [["PgDn", "PgUp"], ["AudioAudioVolUp", "AudioVolDown"]]
 
 # L4: Symbols/Numbers
 [[layer]]
@@ -136,10 +136,10 @@ name = "sym"
 keys = """
 _           WM(1,LShift)   WM(2,LShift)   WM(3,LShift)   WM(4,LShift)    WM(5,LShift)             _           WM(0,LShift)       WM(9,LShift)   WM(8,LShift)   WM(7,LShift)   _
 _           MT(1,LGui)     MT(2,LAlt)     MT(3,LCtrl)    MT(4,LShift)    5                        _           MT(0,RGui)         MT(9,RAlt)     MT(8,RCtrl)    MT(7,RShift)   _
-_           Bslash         TD(5)          TD(0)          TD(1)           TD(2)   Mute     Btn3    _           _                  _              _              Minus          Equal
+_           Backslash         TD(5)          TD(0)          TD(1)           TD(2)   Mute     MouseBtn3    _           _                  _              _              Minus          Equal
 _           _              _              _              _               _                        _           _                  _              _              _              _
 """
-encoders = [["PgDn", "PgUp"], ["AudioVolUp", "AudioVolDown"]]
+encoders = [["PgDn", "PgUp"], ["AudioAudioVolUp", "AudioVolDown"]]
 
 # Fork: Mod-Morph equivalent
 # Shift+Backspace → Delete (#723)
