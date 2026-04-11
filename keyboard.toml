@@ -101,8 +101,8 @@ encoders = [["PgDn", "PgUp"], ["AudioVolUp", "AudioVolDown"]]
 [[layer]]
 name = "nav"
 keys = """
-_           LCtrl(Up)      LCtrl(Down)    PgUp           Up              F11                      _           Up                 PgUp           _              _              _
-_           MT(VolDn,LGui) MT(VolUp,LAlt) MT(Delete,LCtrl) MT(Right,LShift) LAlt(Escape)           _           _                  MT(Right,RAlt) MT(Up,RCtrl)   MT(Down,RShift) _
+_           WM(Up,LCtrl)   WM(Down,LCtrl) PgUp           Up              F11                      _           Up                 PgUp           _              _              _
+_           MT(VolDn,LGui) MT(VolUp,LAlt) MT(Delete,LCtrl) MT(Right,LShift) WM(Escape,LAlt)        _           _                  MT(Right,RAlt) MT(Up,RCtrl)   MT(Down,RShift) _
 _           Btn4           Btn5           PgDn           Down            Left    Mute     Btn3    _           _                  PgDn           _              _              Down
 _           _              _              _              _               _                        _           _                  _              _              _              Delete
 """
@@ -134,7 +134,7 @@ encoders = [["PgDn", "PgUp"], ["AudioVolUp", "AudioVolDown"]]
 [[layer]]
 name = "sym"
 keys = """
-_           LShift(1)      LShift(2)      LShift(3)      LShift(4)       LShift(5)                _           LShift(0)          LShift(9)      LShift(8)      LShift(7)      _
+_           WM(1,LShift)   WM(2,LShift)   WM(3,LShift)   WM(4,LShift)    WM(5,LShift)             _           WM(0,LShift)       WM(9,LShift)   WM(8,LShift)   WM(7,LShift)   _
 _           MT(1,LGui)     MT(2,LAlt)     MT(3,LCtrl)    MT(4,LShift)    5                        _           MT(0,RGui)         MT(9,RAlt)     MT(8,RCtrl)    MT(7,RShift)   _
 _           Bslash         TD(5)          TD(0)          TD(1)           TD(2)   Mute     Btn3    _           _                  _              _              Minus          Equal
 _           _              _              _              _               _                        _           _                  _              _              _              _
