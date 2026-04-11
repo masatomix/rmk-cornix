@@ -86,13 +86,58 @@ matrix_map = """
 (3,0) (3,1) (3,2) (3,3) (3,4) (3,5)              (7,5) (7,4) (7,3) (7,2) (7,1) (7,0)
 """
 
+# L0: Base QWERTY (Mac/Win 共通)
 [[layer]]
-name = "base_layer"
+name = "base"
 keys = """
-ESC     Q     W     E     R      T                Y     U      I      O     P          BSPC
-TAB     A     S     D     F      G                H     J      K      L     SEMICOLON  QUOT
-LSHIFT  Z     X     C     V      B    NO    NO    N     M      COMMA  DOT   SLASH      RSHIFT
-LCTRL   LGUI  LALT  NO    SPACE  NO               NO    ENTER  NO     RALT  MENU       RCTRL
+No          Q              W              E              R               T                        No          P                  O              I              U              No
+No          MT(A,LGui)     MT(S,LAlt)     MT(D,LCtrl)    MT(F,LShift)    LT(3,G)                  No          MT(Semicolon,RGui) MT(L,RAlt)     MT(K,RCtrl)    MT(J,RShift)   No
+No          Z              X              C              V               B       Mute     Btn3    No          LT(3,Slash)        Dot            Comma          M              No
+No          LShift         Language1       MO(4)          LT(1,Space)     LT(2,Language2)          No          LT(4,Grave)        No             No             LT(1,Enter)    Bspace
+"""
+encoders = [["PgDn", "PgUp"], ["AudioVolUp", "AudioVolDown"]]
+
+# L1: Navigation
+[[layer]]
+name = "nav"
+keys = """
+_           LCtrl(Up)      LCtrl(Down)    PgUp           Up              F11                      _           Up                 PgUp           _              _              _
+_           MT(VolDn,LGui) MT(VolUp,LAlt) MT(Delete,LCtrl) MT(Right,LShift) LAlt(Escape)           _           _                  MT(Right,RAlt) MT(Up,RCtrl)   MT(Down,RShift) _
+_           Btn4           Btn5           PgDn           Down            Left    Mute     Btn3    _           _                  PgDn           _              _              Down
+_           _              _              _              _               _                        _           _                  _              _              _              Delete
+"""
+encoders = [["PgDn", "PgUp"], ["AudioVolUp", "AudioVolDown"]]
+
+# L2: F-keys
+[[layer]]
+name = "fkeys"
+keys = """
+_           F11            F12            _              _               _                        _           _                  _              TD(4)          TD(3)          _
+_           F1             F2             F3             F4              F5                       _           F10                F9             F8             F7             _
+_           _              _              _              _               No      Mute     Btn3    _           _                  _              _              _              _
+_           _              _              _              _               _                        _           _                  _              _              _              _
+"""
+encoders = [["PgDn", "PgUp"], ["AudioVolUp", "AudioVolDown"]]
+
+# L3: Mouse
+[[layer]]
+name = "mouse"
+keys = """
+_           _              _              _              _               _                        _           _                  _              _              _              _
+_           _              _              _              _               _                        _           _                  MsRight        MsUp           MsDown         MsLeft
+_           Btn4           Btn5           _              _               _       Mute     Btn3    _           _                  Btn2           Btn3           Btn1           _
+_           _              _              _              Btn1            _                        _           _                  _              _              _              _
+"""
+encoders = [["PgDn", "PgUp"], ["AudioVolUp", "AudioVolDown"]]
+
+# L4: Symbols/Numbers
+[[layer]]
+name = "sym"
+keys = """
+_           LShift(1)      LShift(2)      LShift(3)      LShift(4)       LShift(5)                _           LShift(0)          LShift(9)      LShift(8)      LShift(7)      _
+_           MT(1,LGui)     MT(2,LAlt)     MT(3,LCtrl)    MT(4,LShift)    5                        _           MT(0,RGui)         MT(9,RAlt)     MT(8,RCtrl)    MT(7,RShift)   _
+_           Bslash         TD(5)          TD(0)          TD(1)           TD(2)   Mute     Btn3    _           _                  _              _              Minus          Equal
+_           _              _              _              _               _                        _           _                  _              _              _              _
 """
 encoders = [["PgDn", "PgUp"], ["AudioVolUp", "AudioVolDown"]]
 
